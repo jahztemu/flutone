@@ -76,7 +76,7 @@ class _MainpageState extends State<Mainpage> {
               padding: EdgeInsetsGeometry.directional(start: 120, end: 120),
               child: ElevatedButton(
                 onPressed: () {
-                  resultngn = double.parse(textEditingController.text) * 1350;
+                  resultngn = double.parse(textEditingController.text) * 1362;
                   resultgdp = double.parse(textEditingController.text) * 0.74;
                   setState(() {});
                 },
