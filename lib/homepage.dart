@@ -31,9 +31,9 @@ class _MainpageState extends State<Mainpage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              result.toString(),
+              'NGN ${result != 0 ? result.toStringAsFixed(2) : result.toStringAsFixed(0)}',
               style: TextStyle(
-                fontSize: 50,
+                fontSize: 45,
                 fontWeight: FontWeight.bold,
                 color: Color.fromRGBO(0, 0, 0, 1),
               ),
